@@ -1,0 +1,271 @@
+
+
+body {
+  font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  padding-top: 54px;
+  color: #868e96;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem;
+  }
+}
+
+h1,
+h3,
+h2,
+h4,
+h5,
+h6,.name-header,#demo {
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h1,.name-header,#demo {
+  font-size: 4.5rem;
+  line-height: 5.5rem;
+  color: rgb(51, 153, 255);
+
+
+}
+
+
+#demo{
+  color: rgba(255,255,255,0.8);
+
+}
+
+h2 {
+  font-size: 3.5rem;
+  color: rgb(0, 0, 51);
+}
+
+h3 {
+  font-size: 2rem;
+  color:rgb(0, 34, 102);
+
+}
+
+p.lead {
+  font-weight: 400;
+
+}
+
+#subheading-1{
+  color:rgba(255,255,255,0.8) !important ;
+}
+
+.mb-5{
+  margin-bottom: 1rem !important;
+}
+
+.list-element{
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+
+
+}
+p{
+     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      font-size: 0.9rem;
+
+
+}
+.text{
+  position: relative;
+}
+
+ .type-cursor { 
+    color:#fff;
+     animation:blink .4s ease infinite;
+     opacity:0;
+     color: rgb(51, 153, 255);
+     font-size: 4.4rem;
+
+      }
+ @keyframes blink {
+  100% { opacity:1; }
+ }
+
+.img-text{
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+a{
+    font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size:20px;
+
+}
+
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 1.5rem;
+  color: steelblue;
+
+}
+
+.social-icons a {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 1rem;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+.social-icons a:hover {
+  background-color:rgb(51, 153, 255);
+}
+
+.dev-icons {
+  font-size: 3rem;
+}
+
+.dev-icons .list-inline-item i:hover {
+  color: rgb(51, 153, 255);
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
+
+#sideNav .navbar-toggler:focus {
+  outline-color: #d48a6e;
+}
+
+@media (min-width: 992px) {
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+  }
+  #sideNav .navbar-brand {
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+  }
+  #sideNav .navbar-brand .img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  }
+  #sideNav .navbar-collapse {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+  #sideNav .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+  }
+}
+
+section.resume-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem;
+}
+
+section.resume-section .resume-item .resume-date {
+  min-width: none;
+}
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+  }
+  section.resume-section .resume-item .resume-date {
+    min-width: 13rem;
+  }
+}
+
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .image{
+    width: 320px !important ;
+    height: 270px !important;
+  }
+
+ h1,.name-header,#demo {
+  font-size: 3.3rem;
+  line-height: 3.3rem;
+
+
+}
+}
+
+@media (max-width: 320px) {
+  .image{
+    width: 290px !important ;
+    height: 230px !important;
+  }
+
+ h1,.name-header,#demo {
+  font-size: 3.3rem;
+  line-height: 3.3rem;
+}
+
+#about-description{
+  display: none;
+}
+
+}
+
+
+.bg-primary {
+  background-color: #0F1A20 !important;
+}
+
+.text-primary {
+  /*color: rgba(255,255,255,.8)!important;*/
+  color:black !important;
+}
+
+a {
+  color: rgb(51, 153, 255);
+}
+
+a:hover, a:focus, a:active {
+  color: rgb(128, 0, 0)
+;
+}
+
+
+
